@@ -12,6 +12,7 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ChatResponse implements Serializable {
+    private static final long serialVersionUID = -3032677937770824288L;
     private String judulTantanganHarian;
     private String deskripsi;
     private String jumlah;
